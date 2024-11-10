@@ -1,6 +1,4 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/lhotse-speech/lhotse/master/docs/logo.png" width=376>
-
 [![PyPI Status](https://badge.fury.io/py/lhotse.svg)](https://badge.fury.io/py/lhotse)
 [![Python Versions](https://img.shields.io/pypi/pyversions/lhotse.svg)](https://pypi.org/project/lhotse/)
 [![PyPI Status](https://pepy.tech/badge/lhotse)](https://pepy.tech/project/lhotse)
@@ -64,7 +62,6 @@ augmentation and feature extraction are supported both in pre-computed mode, wit
 stored on disk, and on-the-fly mode that computes the transformations upon request. Additionally, Lhotse introduces
 feature-space cut mixing to make the best of both worlds.
 
-![image](https://raw.githubusercontent.com/lhotse-speech/lhotse/master/docs/lhotse-cut-illustration.png)
 
 ## Installation
 
@@ -186,4 +183,3 @@ batch = next(iter(dataloader))
 The `VadDataset` will yield a batch with pairs of feature and supervision tensors such as the following - the speech
 starts roughly at the first second (100 frames):
 
-![image](https://raw.githubusercontent.com/lhotse-speech/lhotse/master/docs/vad_sample.png)
